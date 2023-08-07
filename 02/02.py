@@ -5,8 +5,7 @@ from sklearn.metrics import classification_report, accuracy_score, confusion_mat
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-excel_file = 'Planilha IA.xlsx'  # Substitua pelo caminho real do arquivo
-data = pd.read_excel(excel_file)
+data = pd.read_excel("PlanilhaIA.xlsx")
 
 
 # Processamento das informações
